@@ -50,7 +50,7 @@
                         bindings = <
    &kp ESC &kp LA(LEFT)  &kp UP     &kp LA(RIGHT) &bt BT_SEL 0 &bt BT_SEL 1  &kp PSCRN &kp SLCK &kp PAUSE_BREAK &trans  &kp K_MUTE  &kp BSPC
    &kp TAB &kp LEFT &kp DOWN &kp RIGHT &bt BT_SEL 2 &bt BT_SEL 3       &kp INS  &kp HOME &kp PG_UP &kp K_PREV &kp K_NEXT &kp RET
-   &kp LSHFT &kp LC(LEFT)   &trans    &kp KC(RIGHT) &bt BT_CLR &bootloader   &kp DEL  &kp END  &kp PG_DN &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
+   &kp LSHFT &kp LC(LEFT)   &trans    &kp LC(RIGHT) &bt BT_CLR &bootloader   &kp DEL  &kp END  &kp PG_DN &kp K_VOL_DN &kp K_VOL_UP &kp K_PP
                                 &kp LCTRL      &kp LALT      &kp SPACE        &trans      &kp LGUI
                         >;
                 };
